@@ -1,88 +1,53 @@
-# Infinite Storage Chests - Minecraft Plugin
+Infinite Storage Chests Plugin
 
-## Description
-Infinite Storage Chests is a Minecraft plugin that introduces a custom, craftable chest with an infinite item storage system. Players can store unlimited quantities of items in a single slot, while still being able to withdraw normal stack sizes. The plugin is designed to provide an efficient storage solution for players who deal with massive amounts of resources.
+Description:
+This plugin adds craftable chests with infinite storage capabilities to Minecraft. Players can store unlimited amounts of the same item in a single chest slot, making inventory management much easier.
 
-## Features
-- **Custom Craftable Chests**: Players can craft special chests using rare materials.
-- **Infinite Stacking**: Store an unlimited amount of a single item in each slot.
-- **Custom GUI**: Interactive chest interface for easy inventory management.
-- **Search & Sorting**: Quickly find and organize items in the storage.
-- **Configurable Limits**: Server admins can customize chest capacity and behavior.
-- **Item Withdrawal**: Retrieve items in normal stack sizes to maintain balance.
+Features:
+- Custom craftable chests with infinite stacking
+- Unique GUI for easy item management
+- Configurable limits for balance
+- Withdraw items in normal stack sizes
+- Sorting and search functionality
+- Customizable crafting recipe
+- Admin commands and permissions
 
-## Crafting Recipe
-To craft an Infinite Storage Chest, use the following materials:
-- 4x Obsidian
-- 4x Ender Pearls
-- 1x Chest
+Crafting Recipe:
+Players can craft an Infinite Storage Chest using:
+- 4 Obsidian
+- 4 Ender Pearls
+- 1 Chest
 
-### Crafting Grid
-```
-[ Obsidian ] [ Ender Pearl ] [ Obsidian ]
-[ Ender Pearl ] [ Chest ] [ Ender Pearl ]
-[ Obsidian ] [ Ender Pearl ] [ Obsidian ]
-```
+Technical Details:
+The plugin stores item counts separately from Minecraft’s inventory system, allowing unlimited stacking without breaking game mechanics. A database or file-based system is used to manage storage data.
 
-## Commands
-| Command | Description | Permission |
-|---------|-------------|-------------|
-| `/giveinfinitechest <player>` | Grants a player an Infinite Storage Chest | `infinitechest.admin` |
-| `/infinitechest reload` | Reloads the plugin configuration | `infinitechest.admin` |
+Commands:
+- /giveinfinitechest <player> - Gives a player the custom chest
+- /infinitechest reload - Reloads the plugin configuration
 
-## Permissions
-- `infinitechest.craft` - Allows crafting the Infinite Storage Chest.
-- `infinitechest.use` - Allows usage of Infinite Storage Chests.
-- `infinitechest.admin` - Grants access to admin commands.
+Permissions:
+- infinitechest.craft - Allows crafting of the chest
+- infinitechest.use - Allows usage of the chest
+- infinitechest.admin - Grants admin privileges
 
-## Configuration (`config.yml`)
-Admins can modify the following settings:
-```yaml
-# Maximum number of unique items per chest
-max_unique_items: 27
+Configuration:
+The config.yml file allows server admins to customize:
+- Max unique items per chest
+- Infinite stacking toggle
+- Custom crafting recipe
 
-# Whether to allow infinite stacking
-allow_infinite_stacking: true
+Gameplay Considerations:
+To maintain balance, the crafting recipe is expensive. Server admins can also limit the number of chests a player can own. The plugin is designed to work with economy and land-claim plugins.
 
-# Crafting recipe ingredients
-crafting_recipe:
-  - obsidian
-  - obsidian
-  - obsidian
-  - ender_pearl
-  - chest
-  - ender_pearl
-  - obsidian
-  - ender_pearl
-  - obsidian
-```
+Future Features:
+- Upgradable chests with different storage capacities
+- Linked chests sharing a single inventory
+- Remote chest access from anywhere in the world
 
-## How It Works
-1. **Craft the Chest** - Players craft the Infinite Storage Chest using the recipe.
-2. **Open the Chest** - Right-click to open the custom GUI.
-3. **Store Items** - Deposit items into slots, where they stack infinitely.
-4. **Retrieve Items** - Withdraw items in standard stack sizes (e.g., 64 at a time).
-5. **Manage Inventory** - Use sorting and search features for easy access.
+Installation:
+1. Download the plugin JAR file.
+2. Place it in the server’s plugins folder.
+3. Restart the server.
+4. Configure settings in config.yml if needed.
 
-## Balancing Considerations
-- **Expensive Crafting Recipe**: Ensures that the chest is not too easily obtainable.
-- **Usage Limits**: Optionally limit the number of Infinite Storage Chests per player.
-- **Compatibility**: Designed to work with other plugins, including economy and land-claim systems.
-
-## Future Enhancements
-- **Upgradable Chests**: Higher-tier chests with more features.
-- **Linked Chests**: Multiple chests sharing a single storage pool.
-- **Remote Access**: Allowing players to access storage from anywhere.
-
-## Installation
-1. Download the plugin `.jar` file.
-2. Place it in the `plugins` folder of your Minecraft server.
-3. Restart the server to generate the configuration files.
-4. Modify `config.yml` as needed.
-5. Enjoy unlimited storage!
-
-## Support
-For support, bug reports, and feature requests, please contact the plugin developer or visit the official support forum.
-
----
-Enjoy seamless item storage with Infinite Storage Chests!
+Enjoy managing your items more efficiently with Infinite Storage Chests!
