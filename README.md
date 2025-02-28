@@ -82,7 +82,7 @@ crafting_recipe:
 5. Enjoy unlimited storage!
 
 ## Support
-For support, bug reports, and feature requests, please contact the plugin developer or visit the official support forum.
+For support, bug reports, and feature requests, please contact me or visit the official support forum.
 
 ---
 Enjoy seamless item storage with Infinite Storage Chests!
