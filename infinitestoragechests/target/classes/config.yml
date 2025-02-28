@@ -1,0 +1,26 @@
+# InfiniteStorageChests Configuration
+
+# Maximum number of unique items per chest
+max_unique_items: 27
+
+# Whether to allow infinite stacking in the chest
+allow_infinite_stacking: true
+
+# Maximum number of infinite chests a player can have
+# Set to 0 for unlimited
+max_chests_per_player: 3
+
+# Storage type (yaml, sqlite - MySQL support coming soon)
+storage_type: yaml
+
+# Crafting recipe ingredients in a 3x3 grid
+crafting_recipe:
+  - OBSIDIAN
+  - OBSIDIAN
+  - OBSIDIAN
+  - ENDER_PEARL
+  - CHEST
+  - ENDER_PEARL
+  - OBSIDIAN
+  - ENDER_PEARL
+  - OBSIDIAN

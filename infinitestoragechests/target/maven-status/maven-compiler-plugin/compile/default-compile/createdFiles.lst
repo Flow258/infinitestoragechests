@@ -1,0 +1,10 @@
+com\flowey258\infinitestoragechests\listeners\ChestListeners.class
+com\flowey258\infinitestoragechests\listeners\CraftingListeners.class
+com\flowey258\infinitestoragechests\storage\StorageManager.class
+com\flowey258\infinitestoragechests\data\StoredItem.class
+com\flowey258\infinitestoragechests\utils\ItemManager.class
+com\flowey258\infinitestoragechests\data\ChestData.class
+com\flowey258\infinitestoragechests\gui\ChestGUI.class
+com\flowey258\infinitestoragechests\commands\InfiniteChestCommand.class
+com\flowey258\infinitestoragechests\InfiniteStorageChests.class
+com\flowey258\infinitestoragechests\config\ConfigManager.class
