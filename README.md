@@ -16,7 +16,7 @@ Mix these items in a crafting table:
 - 1 Chest (center)
 
 ## Basic Commands
-- `/giveinfinitechest <player>` - Give a chest to a player
+- `/infinitechest give <player>` - Give a chest to a player
 - `/infinitechest reload` - Reload plugin settings
 
 ## Quick Setup
